@@ -257,7 +257,7 @@
             // 
             // btnKamera
             // 
-            this.btnKamera.Location = new System.Drawing.Point(389, 278);
+            this.btnKamera.Location = new System.Drawing.Point(389, 277);
             this.btnKamera.Name = "btnKamera";
             this.btnKamera.Size = new System.Drawing.Size(122, 22);
             this.btnKamera.StyleController = this.layoutControl1;
@@ -267,7 +267,7 @@
             // 
             // btnFotografSec
             // 
-            this.btnFotografSec.Location = new System.Drawing.Point(515, 278);
+            this.btnFotografSec.Location = new System.Drawing.Point(515, 277);
             this.btnFotografSec.Name = "btnFotografSec";
             this.btnFotografSec.Size = new System.Drawing.Size(143, 22);
             this.btnFotografSec.StyleController = this.layoutControl1;
@@ -296,7 +296,7 @@
             this.pictureUrunResmi.Properties.PictureStoreMode = DevExpress.XtraEditors.Controls.PictureStoreMode.ByteArray;
             this.pictureUrunResmi.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Always;
             this.pictureUrunResmi.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureUrunResmi.Size = new System.Drawing.Size(269, 214);
+            this.pictureUrunResmi.Size = new System.Drawing.Size(269, 213);
             this.pictureUrunResmi.StyleController = this.layoutControl1;
             this.pictureUrunResmi.TabIndex = 8;
             // 
@@ -440,7 +440,7 @@
             this.layoutControlItem6.CustomizationFormText = "Ürün Resmi ";
             this.layoutControlItem6.Location = new System.Drawing.Point(377, 28);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(273, 238);
+            this.layoutControlItem6.Size = new System.Drawing.Size(273, 237);
             this.layoutControlItem6.Text = "Ürün Resmi";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(114, 17);
@@ -448,15 +448,15 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(377, 292);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(377, 291);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(273, 95);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(273, 96);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.btnFotografSec;
-            this.layoutControlItem8.Location = new System.Drawing.Point(503, 266);
+            this.layoutControlItem8.Location = new System.Drawing.Point(503, 265);
             this.layoutControlItem8.Name = "layoutControlItem8";
             this.layoutControlItem8.Size = new System.Drawing.Size(147, 26);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
@@ -465,7 +465,7 @@
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.btnKamera;
-            this.layoutControlItem9.Location = new System.Drawing.Point(377, 266);
+            this.layoutControlItem9.Location = new System.Drawing.Point(377, 265);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(126, 26);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);

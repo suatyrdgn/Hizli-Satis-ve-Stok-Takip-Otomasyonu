@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using static StokTakip.BLL.Repositories.Repository;
+using StokTakip.Entity.Models;
 
 namespace KolayStokTakip.Form
 {
@@ -22,8 +23,30 @@ namespace KolayStokTakip.Form
         private void frmSiparisOlustur_Load(object sender, EventArgs e)
         {
             TedarikciRepo tedarikciRepo = new TedarikciRepo();
-            lookUpEdit1.Properties.DataSource = tedarikciRepo.GetAll();
-            lookUpEdit1.Properties.DisplayMember = "SirketAdi";
+            lookUpTedarikci.Properties.DataSource = tedarikciRepo.GetAll();
+            lookUpTedarikci.Properties.DisplayMember = "SirketAdi";
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SiparisRepo siparis = new SiparisRepo();
+                siparis.Insert(new Siparis()
+                {
+                    SiparisNotu = memoEditSiparisNotu.Text,
+                    SiparisTarihi = (DateTime)dateEditSiparisTarihi.EditValue,
+                    TeslimAlindiMi = checkEditAlindiMi.Checked,
+                    ToplamFiyat = Convert.ToDecimal(textEditFiyat.Text),
+                    Tedarikci = (Tedarikci)lookUpTedarikci.GetSelectedDataRow()
+                });
+                MessageBox.Show("Sipariş kaydedilmiştir.", "İşlem başarılı!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

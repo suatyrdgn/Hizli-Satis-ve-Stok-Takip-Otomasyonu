@@ -157,7 +157,7 @@
             this.tabNavigationPage1.Caption = "Tedarikçi Ekle";
             this.tabNavigationPage1.Controls.Add(this.layoutControl1);
             this.tabNavigationPage1.Name = "tabNavigationPage1";
-            this.tabNavigationPage1.Size = new System.Drawing.Size(499, 479);
+            this.tabNavigationPage1.Size = new System.Drawing.Size(503, 483);
             // 
             // layoutControl1
             // 
@@ -175,16 +175,16 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(499, 479);
+            this.layoutControl1.Size = new System.Drawing.Size(503, 483);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // simpleButton3
             // 
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(226, 431);
+            this.simpleButton3.Location = new System.Drawing.Point(228, 435);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(118, 36);
+            this.simpleButton3.Size = new System.Drawing.Size(119, 36);
             this.simpleButton3.StyleController = this.layoutControl1;
             this.simpleButton3.TabIndex = 14;
             this.simpleButton3.Text = "İptal";
@@ -192,9 +192,9 @@
             // simpleButton1
             // 
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(348, 431);
+            this.simpleButton1.Location = new System.Drawing.Point(351, 435);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(139, 36);
+            this.simpleButton1.Size = new System.Drawing.Size(140, 36);
             this.simpleButton1.StyleController = this.layoutControl1;
             this.simpleButton1.TabIndex = 12;
             this.simpleButton1.Text = "Ekle";
@@ -202,9 +202,9 @@
             // 
             // txtAdres2
             // 
-            this.txtAdres2.Location = new System.Drawing.Point(116, 293);
+            this.txtAdres2.Location = new System.Drawing.Point(116, 295);
             this.txtAdres2.Name = "txtAdres2";
-            this.txtAdres2.Size = new System.Drawing.Size(371, 134);
+            this.txtAdres2.Size = new System.Drawing.Size(375, 136);
             this.txtAdres2.StyleController = this.layoutControl1;
             this.txtAdres2.TabIndex = 11;
             // 
@@ -212,7 +212,7 @@
             // 
             this.txtAdres1.Location = new System.Drawing.Point(116, 156);
             this.txtAdres1.Name = "txtAdres1";
-            this.txtAdres1.Size = new System.Drawing.Size(371, 133);
+            this.txtAdres1.Size = new System.Drawing.Size(375, 135);
             this.txtAdres1.StyleController = this.layoutControl1;
             this.txtAdres1.TabIndex = 10;
             // 
@@ -220,7 +220,7 @@
             // 
             this.txtCalisanTelefon.Location = new System.Drawing.Point(116, 132);
             this.txtCalisanTelefon.Name = "txtCalisanTelefon";
-            this.txtCalisanTelefon.Size = new System.Drawing.Size(371, 20);
+            this.txtCalisanTelefon.Size = new System.Drawing.Size(375, 20);
             this.txtCalisanTelefon.StyleController = this.layoutControl1;
             this.txtCalisanTelefon.TabIndex = 9;
             // 
@@ -228,7 +228,7 @@
             // 
             this.txtCalisanAdi.Location = new System.Drawing.Point(116, 108);
             this.txtCalisanAdi.Name = "txtCalisanAdi";
-            this.txtCalisanAdi.Size = new System.Drawing.Size(371, 20);
+            this.txtCalisanAdi.Size = new System.Drawing.Size(375, 20);
             this.txtCalisanAdi.StyleController = this.layoutControl1;
             this.txtCalisanAdi.TabIndex = 8;
             // 
@@ -236,7 +236,7 @@
             // 
             this.txtFax.Location = new System.Drawing.Point(116, 84);
             this.txtFax.Name = "txtFax";
-            this.txtFax.Size = new System.Drawing.Size(371, 20);
+            this.txtFax.Size = new System.Drawing.Size(375, 20);
             this.txtFax.StyleController = this.layoutControl1;
             this.txtFax.TabIndex = 7;
             // 
@@ -244,7 +244,7 @@
             // 
             this.txtTelefon.Location = new System.Drawing.Point(116, 60);
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(371, 20);
+            this.txtTelefon.Size = new System.Drawing.Size(375, 20);
             this.txtTelefon.StyleController = this.layoutControl1;
             this.txtTelefon.TabIndex = 6;
             // 
@@ -252,7 +252,7 @@
             // 
             this.txtSirketMaili.Location = new System.Drawing.Point(116, 36);
             this.txtSirketMaili.Name = "txtSirketMaili";
-            this.txtSirketMaili.Size = new System.Drawing.Size(371, 20);
+            this.txtSirketMaili.Size = new System.Drawing.Size(375, 20);
             this.txtSirketMaili.StyleController = this.layoutControl1;
             this.txtSirketMaili.TabIndex = 5;
             // 
@@ -260,7 +260,7 @@
             // 
             this.txtSirketAdi.Location = new System.Drawing.Point(116, 12);
             this.txtSirketAdi.Name = "txtSirketAdi";
-            this.txtSirketAdi.Size = new System.Drawing.Size(371, 20);
+            this.txtSirketAdi.Size = new System.Drawing.Size(375, 20);
             this.txtSirketAdi.StyleController = this.layoutControl1;
             this.txtSirketAdi.TabIndex = 4;
             // 
@@ -281,7 +281,7 @@
             this.layoutControlItem9,
             this.layoutControlItem11});
             this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(499, 479);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(503, 483);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
@@ -291,16 +291,16 @@
             this.layoutControlItem1.Control = this.txtSirketAdi;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem1.Text = "Şirket Adı : ";
             this.layoutControlItem1.TextSize = new System.Drawing.Size(101, 17);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 419);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 423);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(214, 40);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(216, 40);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
@@ -310,7 +310,7 @@
             this.layoutControlItem2.Control = this.txtSirketMaili;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem2.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem2.Text = "Şirket Mail : ";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -321,7 +321,7 @@
             this.layoutControlItem3.Control = this.txtTelefon;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem3.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem3.Text = "Şirket Telefon :";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -332,7 +332,7 @@
             this.layoutControlItem4.Control = this.txtFax;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 72);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem4.Text = "Şirket Fax :";
             this.layoutControlItem4.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -343,7 +343,7 @@
             this.layoutControlItem5.Control = this.txtCalisanAdi;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 96);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem5.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem5.Text = "Çalışan Adı : ";
             this.layoutControlItem5.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -354,7 +354,7 @@
             this.layoutControlItem6.Control = this.txtCalisanTelefon;
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 120);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(479, 24);
+            this.layoutControlItem6.Size = new System.Drawing.Size(483, 24);
             this.layoutControlItem6.Text = "Çalışan Telefon : ";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -365,7 +365,7 @@
             this.layoutControlItem7.Control = this.txtAdres1;
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 144);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(479, 137);
+            this.layoutControlItem7.Size = new System.Drawing.Size(483, 139);
             this.layoutControlItem7.Text = "Adres : ";
             this.layoutControlItem7.TextSize = new System.Drawing.Size(101, 17);
             // 
@@ -374,27 +374,27 @@
             this.layoutControlItem8.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.layoutControlItem8.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem8.Control = this.txtAdres2;
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 281);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 283);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(479, 138);
+            this.layoutControlItem8.Size = new System.Drawing.Size(483, 140);
             this.layoutControlItem8.Text = "Adres 2 :";
             this.layoutControlItem8.TextSize = new System.Drawing.Size(101, 17);
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.simpleButton1;
-            this.layoutControlItem9.Location = new System.Drawing.Point(336, 419);
+            this.layoutControlItem9.Location = new System.Drawing.Point(339, 423);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(143, 40);
+            this.layoutControlItem9.Size = new System.Drawing.Size(144, 40);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.simpleButton3;
-            this.layoutControlItem11.Location = new System.Drawing.Point(214, 419);
+            this.layoutControlItem11.Location = new System.Drawing.Point(216, 423);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(122, 40);
+            this.layoutControlItem11.Size = new System.Drawing.Size(123, 40);
             this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem11.TextVisible = false;
             // 
@@ -403,7 +403,7 @@
             this.tabNavigationPage2.Caption = "Tedarikçi Güncelle/Sil";
             this.tabNavigationPage2.Controls.Add(this.layoutControl2);
             this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(499, 479);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(503, 483);
             // 
             // layoutControl2
             // 
@@ -423,7 +423,7 @@
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(400, 203, 650, 400);
             this.layoutControl2.Root = this.layoutControlGroup2;
-            this.layoutControl2.Size = new System.Drawing.Size(499, 479);
+            this.layoutControl2.Size = new System.Drawing.Size(503, 483);
             this.layoutControl2.TabIndex = 0;
             this.layoutControl2.Text = "layoutControl2";
             // 
@@ -432,7 +432,7 @@
             this.gridControl1.Location = new System.Drawing.Point(12, 12);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(475, 196);
+            this.gridControl1.Size = new System.Drawing.Size(479, 198);
             this.gridControl1.TabIndex = 15;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -452,85 +452,85 @@
             // 
             // txtSirketAdiGuncelle
             // 
-            this.txtSirketAdiGuncelle.Location = new System.Drawing.Point(108, 222);
+            this.txtSirketAdiGuncelle.Location = new System.Drawing.Point(108, 224);
             this.txtSirketAdiGuncelle.Name = "txtSirketAdiGuncelle";
-            this.txtSirketAdiGuncelle.Size = new System.Drawing.Size(139, 20);
+            this.txtSirketAdiGuncelle.Size = new System.Drawing.Size(141, 20);
             this.txtSirketAdiGuncelle.StyleController = this.layoutControl2;
             this.txtSirketAdiGuncelle.TabIndex = 4;
             // 
             // txtSirketMailGuncelle
             // 
-            this.txtSirketMailGuncelle.Location = new System.Drawing.Point(337, 222);
+            this.txtSirketMailGuncelle.Location = new System.Drawing.Point(339, 224);
             this.txtSirketMailGuncelle.Name = "txtSirketMailGuncelle";
-            this.txtSirketMailGuncelle.Size = new System.Drawing.Size(140, 20);
+            this.txtSirketMailGuncelle.Size = new System.Drawing.Size(142, 20);
             this.txtSirketMailGuncelle.StyleController = this.layoutControl2;
             this.txtSirketMailGuncelle.TabIndex = 5;
             // 
             // txtSirketTelefonGuncelle
             // 
-            this.txtSirketTelefonGuncelle.Location = new System.Drawing.Point(108, 246);
+            this.txtSirketTelefonGuncelle.Location = new System.Drawing.Point(108, 248);
             this.txtSirketTelefonGuncelle.Name = "txtSirketTelefonGuncelle";
-            this.txtSirketTelefonGuncelle.Size = new System.Drawing.Size(139, 20);
+            this.txtSirketTelefonGuncelle.Size = new System.Drawing.Size(141, 20);
             this.txtSirketTelefonGuncelle.StyleController = this.layoutControl2;
             this.txtSirketTelefonGuncelle.TabIndex = 6;
             // 
             // txtSirketFaxGuncelle
             // 
-            this.txtSirketFaxGuncelle.Location = new System.Drawing.Point(337, 246);
+            this.txtSirketFaxGuncelle.Location = new System.Drawing.Point(339, 248);
             this.txtSirketFaxGuncelle.Name = "txtSirketFaxGuncelle";
-            this.txtSirketFaxGuncelle.Size = new System.Drawing.Size(140, 20);
+            this.txtSirketFaxGuncelle.Size = new System.Drawing.Size(142, 20);
             this.txtSirketFaxGuncelle.StyleController = this.layoutControl2;
             this.txtSirketFaxGuncelle.TabIndex = 7;
             // 
             // txtCalisanAdiGuncelle
             // 
-            this.txtCalisanAdiGuncelle.Location = new System.Drawing.Point(108, 270);
+            this.txtCalisanAdiGuncelle.Location = new System.Drawing.Point(108, 272);
             this.txtCalisanAdiGuncelle.Name = "txtCalisanAdiGuncelle";
-            this.txtCalisanAdiGuncelle.Size = new System.Drawing.Size(139, 20);
+            this.txtCalisanAdiGuncelle.Size = new System.Drawing.Size(141, 20);
             this.txtCalisanAdiGuncelle.StyleController = this.layoutControl2;
             this.txtCalisanAdiGuncelle.TabIndex = 8;
             // 
             // txtCalisanTelefonGuncelle
             // 
-            this.txtCalisanTelefonGuncelle.Location = new System.Drawing.Point(337, 270);
+            this.txtCalisanTelefonGuncelle.Location = new System.Drawing.Point(339, 272);
             this.txtCalisanTelefonGuncelle.Name = "txtCalisanTelefonGuncelle";
-            this.txtCalisanTelefonGuncelle.Size = new System.Drawing.Size(140, 20);
+            this.txtCalisanTelefonGuncelle.Size = new System.Drawing.Size(142, 20);
             this.txtCalisanTelefonGuncelle.StyleController = this.layoutControl2;
             this.txtCalisanTelefonGuncelle.TabIndex = 9;
             // 
             // txtAdresGuncelle
             // 
-            this.txtAdresGuncelle.Location = new System.Drawing.Point(108, 294);
+            this.txtAdresGuncelle.Location = new System.Drawing.Point(108, 296);
             this.txtAdresGuncelle.Name = "txtAdresGuncelle";
-            this.txtAdresGuncelle.Size = new System.Drawing.Size(369, 55);
+            this.txtAdresGuncelle.Size = new System.Drawing.Size(373, 56);
             this.txtAdresGuncelle.StyleController = this.layoutControl2;
             this.txtAdresGuncelle.TabIndex = 10;
             // 
             // txtAdres2Guncelle
             // 
-            this.txtAdres2Guncelle.Location = new System.Drawing.Point(108, 353);
+            this.txtAdres2Guncelle.Location = new System.Drawing.Point(108, 356);
             this.txtAdres2Guncelle.Name = "txtAdres2Guncelle";
-            this.txtAdres2Guncelle.Size = new System.Drawing.Size(369, 64);
+            this.txtAdres2Guncelle.Size = new System.Drawing.Size(373, 65);
             this.txtAdres2Guncelle.StyleController = this.layoutControl2;
             this.txtAdres2Guncelle.TabIndex = 11;
             // 
             // btnGuncelle
             // 
             this.btnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGuncelle.ImageOptions.Image")));
-            this.btnGuncelle.Location = new System.Drawing.Point(344, 421);
+            this.btnGuncelle.Location = new System.Drawing.Point(347, 425);
             this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(133, 36);
+            this.btnGuncelle.Size = new System.Drawing.Size(134, 36);
             this.btnGuncelle.StyleController = this.layoutControl2;
             this.btnGuncelle.TabIndex = 12;
-            this.btnGuncelle.Text = "Ekle";
+            this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnIptal
             // 
             this.btnIptal.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnIptal.ImageOptions.Image")));
-            this.btnIptal.Location = new System.Drawing.Point(225, 421);
+            this.btnIptal.Location = new System.Drawing.Point(227, 425);
             this.btnIptal.Name = "btnIptal";
-            this.btnIptal.Size = new System.Drawing.Size(115, 36);
+            this.btnIptal.Size = new System.Drawing.Size(116, 36);
             this.btnIptal.StyleController = this.layoutControl2;
             this.btnIptal.TabIndex = 14;
             this.btnIptal.Text = "İptal";
@@ -544,7 +544,7 @@
             this.Root1,
             this.layoutControlItem21});
             this.layoutControlGroup2.Name = "Root";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(499, 479);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(503, 483);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // Root1
@@ -564,9 +564,9 @@
             this.layoutControlItem14,
             this.layoutControlItem16,
             this.layoutControlItem12});
-            this.Root1.Location = new System.Drawing.Point(0, 200);
+            this.Root1.Location = new System.Drawing.Point(0, 202);
             this.Root1.Name = "Root1";
-            this.Root1.Size = new System.Drawing.Size(479, 259);
+            this.Root1.Size = new System.Drawing.Size(483, 261);
             this.Root1.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
             this.Root1.Text = "Root";
             this.Root1.TextVisible = false;
@@ -577,7 +577,7 @@
             this.layoutControlItem10.CustomizationFormText = "Şirket Adı : ";
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(229, 24);
+            this.layoutControlItem10.Size = new System.Drawing.Size(231, 24);
             this.layoutControlItem10.Text = "Şirket Adı : ";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -585,9 +585,9 @@
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.CustomizationFormText = "emptySpaceItem1";
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 199);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 201);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(203, 40);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(205, 40);
             this.emptySpaceItem2.Text = "emptySpaceItem1";
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -597,7 +597,7 @@
             this.layoutControlItem13.CustomizationFormText = "Şirket Telefon :";
             this.layoutControlItem13.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(229, 24);
+            this.layoutControlItem13.Size = new System.Drawing.Size(231, 24);
             this.layoutControlItem13.Text = "Şirket Telefon :";
             this.layoutControlItem13.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -607,7 +607,7 @@
             this.layoutControlItem15.CustomizationFormText = "Çalışan Adı : ";
             this.layoutControlItem15.Location = new System.Drawing.Point(0, 48);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(229, 24);
+            this.layoutControlItem15.Size = new System.Drawing.Size(231, 24);
             this.layoutControlItem15.Text = "Çalışan Adı : ";
             this.layoutControlItem15.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -617,7 +617,7 @@
             this.layoutControlItem17.CustomizationFormText = "Adres : ";
             this.layoutControlItem17.Location = new System.Drawing.Point(0, 72);
             this.layoutControlItem17.Name = "layoutControlItem17";
-            this.layoutControlItem17.Size = new System.Drawing.Size(459, 59);
+            this.layoutControlItem17.Size = new System.Drawing.Size(463, 60);
             this.layoutControlItem17.Text = "Adres : ";
             this.layoutControlItem17.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -625,9 +625,9 @@
             // 
             this.layoutControlItem18.Control = this.txtAdres2Guncelle;
             this.layoutControlItem18.CustomizationFormText = "Adres 2 :";
-            this.layoutControlItem18.Location = new System.Drawing.Point(0, 131);
+            this.layoutControlItem18.Location = new System.Drawing.Point(0, 132);
             this.layoutControlItem18.Name = "layoutControlItem18";
-            this.layoutControlItem18.Size = new System.Drawing.Size(459, 68);
+            this.layoutControlItem18.Size = new System.Drawing.Size(463, 69);
             this.layoutControlItem18.Text = "Adres 2 :";
             this.layoutControlItem18.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -635,9 +635,9 @@
             // 
             this.layoutControlItem19.Control = this.btnGuncelle;
             this.layoutControlItem19.CustomizationFormText = "layoutControlItem9";
-            this.layoutControlItem19.Location = new System.Drawing.Point(322, 199);
+            this.layoutControlItem19.Location = new System.Drawing.Point(325, 201);
             this.layoutControlItem19.Name = "layoutControlItem19";
-            this.layoutControlItem19.Size = new System.Drawing.Size(137, 40);
+            this.layoutControlItem19.Size = new System.Drawing.Size(138, 40);
             this.layoutControlItem19.Text = "layoutControlItem9";
             this.layoutControlItem19.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem19.TextVisible = false;
@@ -646,9 +646,9 @@
             // 
             this.layoutControlItem20.Control = this.btnIptal;
             this.layoutControlItem20.CustomizationFormText = "layoutControlItem11";
-            this.layoutControlItem20.Location = new System.Drawing.Point(203, 199);
+            this.layoutControlItem20.Location = new System.Drawing.Point(205, 201);
             this.layoutControlItem20.Name = "layoutControlItem20";
-            this.layoutControlItem20.Size = new System.Drawing.Size(119, 40);
+            this.layoutControlItem20.Size = new System.Drawing.Size(120, 40);
             this.layoutControlItem20.Text = "layoutControlItem11";
             this.layoutControlItem20.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem20.TextVisible = false;
@@ -657,9 +657,9 @@
             // 
             this.layoutControlItem14.Control = this.txtSirketFaxGuncelle;
             this.layoutControlItem14.CustomizationFormText = "Şirket Fax :";
-            this.layoutControlItem14.Location = new System.Drawing.Point(229, 24);
+            this.layoutControlItem14.Location = new System.Drawing.Point(231, 24);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(230, 24);
+            this.layoutControlItem14.Size = new System.Drawing.Size(232, 24);
             this.layoutControlItem14.Text = "Şirket Fax :";
             this.layoutControlItem14.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -667,9 +667,9 @@
             // 
             this.layoutControlItem16.Control = this.txtCalisanTelefonGuncelle;
             this.layoutControlItem16.CustomizationFormText = "Çalışan Telefon : ";
-            this.layoutControlItem16.Location = new System.Drawing.Point(229, 48);
+            this.layoutControlItem16.Location = new System.Drawing.Point(231, 48);
             this.layoutControlItem16.Name = "layoutControlItem16";
-            this.layoutControlItem16.Size = new System.Drawing.Size(230, 24);
+            this.layoutControlItem16.Size = new System.Drawing.Size(232, 24);
             this.layoutControlItem16.Text = "Çalışan Telefon : ";
             this.layoutControlItem16.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -677,9 +677,9 @@
             // 
             this.layoutControlItem12.Control = this.txtSirketMailGuncelle;
             this.layoutControlItem12.CustomizationFormText = "Şirket Mail : ";
-            this.layoutControlItem12.Location = new System.Drawing.Point(229, 0);
+            this.layoutControlItem12.Location = new System.Drawing.Point(231, 0);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(230, 24);
+            this.layoutControlItem12.Size = new System.Drawing.Size(232, 24);
             this.layoutControlItem12.Text = "Şirket Mail : ";
             this.layoutControlItem12.TextSize = new System.Drawing.Size(83, 13);
             // 
@@ -688,7 +688,7 @@
             this.layoutControlItem21.Control = this.gridControl1;
             this.layoutControlItem21.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem21.Name = "layoutControlItem21";
-            this.layoutControlItem21.Size = new System.Drawing.Size(479, 200);
+            this.layoutControlItem21.Size = new System.Drawing.Size(483, 202);
             this.layoutControlItem21.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem21.TextVisible = false;
             // 

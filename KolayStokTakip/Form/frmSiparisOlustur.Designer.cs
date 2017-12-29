@@ -29,75 +29,91 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSiparisOlustur));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
-            this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
-            this.tedarikciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.checkEditAlindiMi = new DevExpress.XtraEditors.CheckEdit();
+            this.memoEditSiparisNotu = new DevExpress.XtraEditors.MemoEdit();
+            this.lookUpTedarikci = new DevExpress.XtraEditors.LookUpEdit();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.tedarikciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dateEditSiparisTarihi = new DevExpress.XtraEditors.DateEdit();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.textEditFiyat = new DevExpress.XtraEditors.TextEdit();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEditAlindiMi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEditSiparisNotu.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpTedarikci.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditSiparisTarihi.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditSiparisTarihi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditFiyat.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.checkEdit1);
-            this.layoutControl1.Controls.Add(this.memoEdit1);
-            this.layoutControl1.Controls.Add(this.lookUpEdit1);
+            this.layoutControl1.Controls.Add(this.simpleButton2);
+            this.layoutControl1.Controls.Add(this.simpleButton1);
+            this.layoutControl1.Controls.Add(this.textEditFiyat);
+            this.layoutControl1.Controls.Add(this.dateEditSiparisTarihi);
+            this.layoutControl1.Controls.Add(this.checkEditAlindiMi);
+            this.layoutControl1.Controls.Add(this.memoEditSiparisNotu);
+            this.layoutControl1.Controls.Add(this.lookUpTedarikci);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(617, 469);
+            this.layoutControl1.Size = new System.Drawing.Size(433, 262);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
-            // checkEdit1
+            // checkEditAlindiMi
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(12, 108);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "Teslim Alındı mı? ";
-            this.checkEdit1.Size = new System.Drawing.Size(593, 20);
-            this.checkEdit1.StyleController = this.layoutControl1;
-            this.checkEdit1.TabIndex = 6;
+            this.checkEditAlindiMi.Location = new System.Drawing.Point(218, 190);
+            this.checkEditAlindiMi.Name = "checkEditAlindiMi";
+            this.checkEditAlindiMi.Properties.Caption = "Teslim Alındı mı? ";
+            this.checkEditAlindiMi.Size = new System.Drawing.Size(203, 20);
+            this.checkEditAlindiMi.StyleController = this.layoutControl1;
+            this.checkEditAlindiMi.TabIndex = 6;
             // 
-            // memoEdit1
+            // memoEditSiparisNotu
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(72, 36);
-            this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(533, 68);
-            this.memoEdit1.StyleController = this.layoutControl1;
-            this.memoEdit1.TabIndex = 5;
+            this.memoEditSiparisNotu.Location = new System.Drawing.Point(88, 36);
+            this.memoEditSiparisNotu.Name = "memoEditSiparisNotu";
+            this.memoEditSiparisNotu.Size = new System.Drawing.Size(333, 126);
+            this.memoEditSiparisNotu.StyleController = this.layoutControl1;
+            this.memoEditSiparisNotu.TabIndex = 5;
             // 
-            // lookUpEdit1
+            // lookUpTedarikci
             // 
-            this.lookUpEdit1.Location = new System.Drawing.Point(72, 12);
-            this.lookUpEdit1.Name = "lookUpEdit1";
-            this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.lookUpTedarikci.Location = new System.Drawing.Point(88, 12);
+            this.lookUpTedarikci.Name = "lookUpTedarikci";
+            this.lookUpTedarikci.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit1.Properties.DataSource = this.tedarikciBindingSource;
-            this.lookUpEdit1.Properties.DisplayMember = "SirketAdi";
-            this.lookUpEdit1.Properties.ValueMember = "TedarikciID";
-            this.lookUpEdit1.Size = new System.Drawing.Size(533, 20);
-            this.lookUpEdit1.StyleController = this.layoutControl1;
-            this.lookUpEdit1.TabIndex = 4;
-            // 
-            // tedarikciBindingSource
-            // 
-            this.tedarikciBindingSource.DataSource = typeof(StokTakip.Entity.Models.Tedarikci);
+            this.lookUpTedarikci.Properties.DataSource = this.tedarikciBindingSource;
+            this.lookUpTedarikci.Properties.DisplayMember = "SirketAdi";
+            this.lookUpTedarikci.Properties.ValueMember = "TedarikciID";
+            this.lookUpTedarikci.Size = new System.Drawing.Size(333, 20);
+            this.lookUpTedarikci.StyleController = this.layoutControl1;
+            this.lookUpTedarikci.TabIndex = 4;
             // 
             // layoutControlGroup1
             // 
@@ -107,66 +123,159 @@
             this.layoutControlItem1,
             this.emptySpaceItem1,
             this.layoutControlItem2,
-            this.layoutControlItem3});
+            this.layoutControlItem3,
+            this.layoutControlItem4,
+            this.layoutControlItem5,
+            this.layoutControlItem6,
+            this.layoutControlItem7});
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(617, 469);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(433, 262);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Control = this.lookUpEdit1;
+            this.layoutControlItem1.Control = this.lookUpTedarikci;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(597, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(413, 24);
             this.layoutControlItem1.Text = "Tedarikçi";
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(57, 13);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(73, 13);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 120);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 202);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(597, 329);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(206, 40);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.memoEdit1;
+            this.layoutControlItem2.Control = this.memoEditSiparisNotu;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(597, 72);
+            this.layoutControlItem2.Size = new System.Drawing.Size(413, 130);
             this.layoutControlItem2.Text = "Sipariş Notu";
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(57, 13);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(73, 13);
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.checkEdit1;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 96);
+            this.layoutControlItem3.Control = this.checkEditAlindiMi;
+            this.layoutControlItem3.Location = new System.Drawing.Point(206, 178);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(597, 24);
+            this.layoutControlItem3.Size = new System.Drawing.Size(207, 24);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
+            // 
+            // tedarikciBindingSource
+            // 
+            this.tedarikciBindingSource.DataSource = typeof(StokTakip.Entity.Models.Tedarikci);
+            // 
+            // dateEditSiparisTarihi
+            // 
+            this.dateEditSiparisTarihi.EditValue = null;
+            this.dateEditSiparisTarihi.Location = new System.Drawing.Point(88, 166);
+            this.dateEditSiparisTarihi.Name = "dateEditSiparisTarihi";
+            this.dateEditSiparisTarihi.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditSiparisTarihi.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditSiparisTarihi.Size = new System.Drawing.Size(333, 20);
+            this.dateEditSiparisTarihi.StyleController = this.layoutControl1;
+            this.dateEditSiparisTarihi.TabIndex = 7;
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.Control = this.dateEditSiparisTarihi;
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 154);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(413, 24);
+            this.layoutControlItem4.Text = "Sipariş Tarihi";
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(73, 13);
+            // 
+            // textEditFiyat
+            // 
+            this.textEditFiyat.Location = new System.Drawing.Point(88, 190);
+            this.textEditFiyat.Name = "textEditFiyat";
+            this.textEditFiyat.Size = new System.Drawing.Size(126, 20);
+            this.textEditFiyat.StyleController = this.layoutControl1;
+            this.textEditFiyat.TabIndex = 8;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.textEditFiyat;
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 178);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(206, 24);
+            this.layoutControlItem5.Text = "Toplam Tutar : ";
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(73, 13);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(321, 214);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(100, 36);
+            this.simpleButton1.StyleController = this.layoutControl1;
+            this.simpleButton1.TabIndex = 9;
+            this.simpleButton1.Text = "Kaydet";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.simpleButton1;
+            this.layoutControlItem6.Location = new System.Drawing.Point(309, 202);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(104, 40);
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem6.TextVisible = false;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.simpleButton2.Location = new System.Drawing.Point(218, 214);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(99, 36);
+            this.simpleButton2.StyleController = this.layoutControl1;
+            this.simpleButton2.TabIndex = 10;
+            this.simpleButton2.Text = "İptal";
+            // 
+            // layoutControlItem7
+            // 
+            this.layoutControlItem7.Control = this.simpleButton2;
+            this.layoutControlItem7.Location = new System.Drawing.Point(206, 202);
+            this.layoutControlItem7.Name = "layoutControlItem7";
+            this.layoutControlItem7.Size = new System.Drawing.Size(103, 40);
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem7.TextVisible = false;
             // 
             // frmSiparisOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(617, 469);
+            this.ClientSize = new System.Drawing.Size(433, 262);
             this.Controls.Add(this.layoutControl1);
             this.Name = "frmSiparisOlustur";
-            this.Text = "frmSiparisOlustur";
+            this.Text = "Sipariş Oluştur";
             this.Load += new System.EventHandler(this.frmSiparisOlustur_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEditAlindiMi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEditSiparisNotu.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpTedarikci.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tedarikciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditSiparisTarihi.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditSiparisTarihi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditFiyat.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,13 +284,21 @@
 
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.MemoEdit memoEdit1;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
+        private DevExpress.XtraEditors.CheckEdit checkEditAlindiMi;
+        private DevExpress.XtraEditors.MemoEdit memoEditSiparisNotu;
+        private DevExpress.XtraEditors.LookUpEdit lookUpTedarikci;
         private System.Windows.Forms.BindingSource tedarikciBindingSource;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.XtraEditors.DateEdit dateEditSiparisTarihi;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
+        private DevExpress.XtraEditors.TextEdit textEditFiyat;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
     }
 }

@@ -90,9 +90,9 @@ namespace KolayStokTakip.Form
                 seciliTedarikci.Adres2 = txtAdres2Guncelle.Text;
                 seciliTedarikci.CalisanAdi = txtCalisanAdiGuncelle.Text;
                 seciliTedarikci.CalisanTelefonu = txtCalisanTelefonGuncelle.Text;
-
                 tedarikci.Update();
                 MessageBox.Show("Tedarikçi başarıyla güncellenmiştir", "Mesaj", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
             }
             catch (Exception ex)
             {
