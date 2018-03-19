@@ -122,7 +122,7 @@
             this.tabNavigationPage1,
             this.tabNavigationPage2});
             this.tabPane1.RegularSize = new System.Drawing.Size(443, 410);
-            this.tabPane1.SelectedPage = this.tabNavigationPage2;
+            this.tabPane1.SelectedPage = this.tabNavigationPage1;
             this.tabPane1.Size = new System.Drawing.Size(443, 410);
             this.tabPane1.TabIndex = 0;
             this.tabPane1.Text = "Kategori Ekle";

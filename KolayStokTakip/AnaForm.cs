@@ -41,14 +41,14 @@ namespace KolayStokTakip
                 if (txtBarkod.Text == string.Empty) return;
                 e.Handled = true;
                 e.SuppressKeyPress = true;
-                int miktar = int.Parse(txtAdet.Text);
+                var miktar = int.Parse(txtAdet.Text);
                 try
                 {
-                    string barkod = txtBarkod.Text;
-                    UrunRepo urn = new UrunRepo();
+                    var barkod = txtBarkod.Text;
+                    var urn = new UrunRepo();
                     if (urn.BarkodaGoreGetir(barkod) == null)
                     {
-                        DialogResult cevap = MessageBox.Show("Barkod veritabanında bulunmamaktadır.\n Yeni ürün olarak eklemek ister misiniz?", "Kayıtsız stok!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        var cevap = MessageBox.Show("Barkod veritabanında bulunmamaktadır.\n Yeni ürün olarak eklemek ister misiniz?", "Kayıtsız stok!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (cevap == DialogResult.Yes)
                         {
                             frmStokIslemleri frm = new frmStokIslemleri();
@@ -58,8 +58,8 @@ namespace KolayStokTakip
                     }
                     else
                     {
-                        bool listedevarMi = false;
-                        Urun gelenUrun = urn.BarkodaGoreGetir(barkod);
+                        var listedevarMi = false;
+                        var gelenUrun = urn.BarkodaGoreGetir(barkod);
                         UrunSatisKontrol(gelenUrun);
                         foreach (var item in SepetListesi)
                         {
@@ -71,7 +71,7 @@ namespace KolayStokTakip
                         }
                         if (!listedevarMi)
                         {
-                            UrunListViewModel yeni = new UrunListViewModel();
+                            var yeni = new UrunListViewModel();
                             yeni.Adet = miktar;
                             yeni.UrunAdi = gelenUrun.UrunAdi;
                             yeni.Barkod = gelenUrun.Barkod;
@@ -100,13 +100,13 @@ namespace KolayStokTakip
             }
         }
 
-        void SepetToplaminiYaz()
+       private void SepetToplaminiYaz()
         {
             lbltoplam.Text = $"{SepetListesi.Sum(x => x.decToplamTutar):c2}";
         }
-        void UrunEklemeSonrasi()
-        {
-            txtAdet.Text = "1";
+       private void UrunEklemeSonrasi()
+       {
+           txtAdet.Text = "1";
             gridControl1.DataSource = null;
             gridControl1.DataSource = SepetListesi;
         }
@@ -117,19 +117,21 @@ namespace KolayStokTakip
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            //frmNakitSatis frm = new frmNakitSatis();
-            //frm.ToplamTutar = SepetListesi.Sum(x => x.decToplamTutar);
-            //frm.ShowDialog();
+            frmNakitSatis frm = new frmNakitSatis
+            {
+                ToplamTutar = SepetListesi.Sum(x => x.decToplamTutar)
+            };
+            frm.ShowDialog();
 
             try
             {
-                SatisRepo satisRepo = new SatisRepo();
-                Satis satis = new Satis()
+                var satisRepo = new SatisRepo();
+                var satis = new Satis()
                 {
                     OdemeTipi = OdemeTipi.Nakit,
                     SatisTarihi = DateTime.Now
                 };
-                List<SatisDetay> stlst = new List<SatisDetay>();
+                var stlst = new List<SatisDetay>();
                 foreach (var item in SepetListesi)
                 {
                   
@@ -151,7 +153,7 @@ namespace KolayStokTakip
 
         private void btnStokİslemleri_ItemClick(object sender, ItemClickEventArgs e)
         {
-            frmStokIslemleri frm = new frmStokIslemleri();
+            var frm = new frmStokIslemleri();
             frm.ShowDialog();
         }
 
@@ -166,6 +168,9 @@ namespace KolayStokTakip
         }
         private void AnaForm_Load(object sender, EventArgs e)
         {
+           var a = new UrunRepo();
+          var b =   a.GetAll();// form load olduğunda veritabanı bağlantısının sağlanması için yazdım, düzenlenecek
+
         }
 
         private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)

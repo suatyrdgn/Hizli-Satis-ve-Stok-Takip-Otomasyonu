@@ -139,12 +139,6 @@
     <Compile Include="Form\frmTedarikciIslemleri.Designer.cs">
       <DependentUpon>frmTedarikciIslemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\UserControlStokEkle.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Form\UserControlStokEkle.Designer.cs">
-      <DependentUpon>UserControlStokEkle.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaForm.resx">
@@ -167,9 +161,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmTedarikciIslemleri.resx">
       <DependentUpon>frmTedarikciIslemleri.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\UserControlStokEkle.resx">
-      <DependentUpon>UserControlStokEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

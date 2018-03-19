@@ -177,8 +177,6 @@
             this.colKDVsizTutar.FieldName = "KDVsizTutar";
             this.colKDVsizTutar.Name = "colKDVsizTutar";
             this.colKDVsizTutar.OptionsColumn.ReadOnly = true;
-            this.colKDVsizTutar.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "KDVsizTutar", "TOPLAM={0:c2}")});
             this.colKDVsizTutar.Visible = true;
             this.colKDVsizTutar.VisibleIndex = 2;
             // 
@@ -188,8 +186,6 @@
             this.colBirimFiyat.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
             this.colBirimFiyat.FieldName = "BirimFiyat";
             this.colBirimFiyat.Name = "colBirimFiyat";
-            this.colBirimFiyat.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "BirimFiyat", "TOPLAM={0:c2}")});
             this.colBirimFiyat.Visible = true;
             this.colBirimFiyat.VisibleIndex = 5;
             // 
@@ -261,6 +257,8 @@
             // 
             this.btnStokHareketleri.Caption = "Stok Hareketleri";
             this.btnStokHareketleri.Id = 3;
+            this.btnStokHareketleri.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnStokHareketleri.ImageOptions.Image")));
+            this.btnStokHareketleri.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnStokHareketleri.ImageOptions.LargeImage")));
             this.btnStokHareketleri.Name = "btnStokHareketleri";
             this.btnStokHareketleri.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnStokHareketleri_ItemClick);
             // 
@@ -518,7 +516,7 @@
             this.simpleButton2.StyleController = this.layoutControl1;
             this.simpleButton2.TabIndex = 6;
             this.simpleButton2.TabStop = false;
-            this.simpleButton2.Text = "Kredi Kartı";
+            this.simpleButton2.Text = "Veresiye";
             // 
             // layoutControlGroup1
             // 
